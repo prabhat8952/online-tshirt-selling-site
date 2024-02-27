@@ -258,5 +258,14 @@ h1{
     margin-bottom: 10px;
 }
 
+.reset-button{
+    margin-left: 43%;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(10, 154, 244);
+    color: rgb(6, 6, 6);
+    border-radius: 10px;
+}
+
 
 
