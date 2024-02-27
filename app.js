@@ -1,14 +1,14 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
-import Header from "./components/Header";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
+import Header from "./src/components/Header";
+import Body from "./src/components/Body";
+import Footer from "./src/components/Footer";
 import { Outlet, Router, RouterProvider, createBrowserRouter } from "react-router-dom";
-import Profile from "./components/Profile";
-import Cart from "./components/Cart";
-import Wishlist from "./components/Wishlist";
+import Profile from "./src/components/Profile";
+import Cart from "./src/components/Cart";
+import Wishlist from "./src/components/Wishlist";
 import { Provider } from "react-redux";
-import store from "./utils/store";
+import store from "./src/utils/store";
 const Applayout=()=>{
          
     return(
